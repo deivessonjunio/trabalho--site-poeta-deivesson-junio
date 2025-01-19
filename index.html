@@ -1,29 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site do Poeta</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Deivesson Junio - Poeta Brasileiro</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Site do Poeta</h1>
+        <div class="container">
+            <h1>Deivesson Junio</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">Sobre o Poeta</a>
+                </li>
+                <li>
+                    <a href="#works">Obras</a>
+                </li>
+                <li>
+                    <a href="#contact">Contato</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
     </header>
-    <nav>
-        <a href="#sobre">Sobre o Poeta</a>
-        <a href="#redes">Redes do Poeta</a>
-    </nav>
-    <section id="sobre">
-        <h2>Sobre o Poeta</h2>
-        <p>Informações sobre o poeta...</p>
+    <section id="about">
+        <div class="container">
+            <img class="store-front" src="./images/poeta.jpg" alt="Imagem de Deivesson Junio">
+            <div>
+                <h2>Sobre o Poeta</h2>
+                <p>
+                    Deivesson Junio é um renomado poeta brasileiro, conhecido por suas obras que tocam o coração e a alma dos leitores. Seu estilo único e suas palavras poderosas têm conquistado admiradores em todo o mundo.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, itaque officia voluptatum nobis ab culpa. Odio, ratione perspiciatis, in nostrum, aspernatur vitae laudantium molestiae sit temporibus itaque suscipit nihil at.
+                </p>
+            </div>
+        </div>
     </section>
-    <section id="redes">
-        <h2>Redes do Poeta</h2>
-        <p>Informações sobre as redes sociais do poeta...</p>
+    <section id="works">
+        <div class="container">
+            <h2>Obras</h2>
+            <p>
+                Entre as principais obras de Deivesson Junio estão:
+            </p>
+            <ul class="brands-list">
+                <li><img src="./images/poema1.jpg" alt="Poema 1"></li>
+                <li><img src="./images/poema2.jpg" alt="Poema 2"></li>
+                <li><img src="./images/poema3.jpg" alt="Poema 3"></li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale Conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required/>
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <input type="tel" placeholder="Seu telefone (opcional)"/>
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos Acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga-nos no Instagram">
+                                <img src="./images/instagram.png" alt="Logo do Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga-nos no Facebook">
+                                <img src="./images/facebook.png" alt="Logo do Facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso canal no Youtube">
+                                <img src="./images/youtube.png" alt="Logo do Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Venha Até Nós</h3>
+                    <p>
+                        Rua Poesia n 134, Vila das Letras - Belo Horizonte - MG
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
-        <p>Sobre Nós: Informações genéricas...</p>
+        <div class="container">
+            <p>
+                &copy; Deivesson Junio - Todos os direitos reservados - 2025
+            </p>
+        </div>
     </footer>
 </body>
 </html>
